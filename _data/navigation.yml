@@ -1,0 +1,67 @@
+- title: Getting Started
+  url: /installation
+  icon: '▶'
+- title: Features
+  url: /features
+  icon: '✓'
+- title: Configuration
+  url: /config
+  icon: '⚙️'
+- title: Troubleshooting
+  url: /troubleshooting
+  icon: '💥'
+- title: Guides
+  url: /guides/
+  icon: '📖'
+  children:
+    - title: Using a remote index
+      description: >
+        Avoid indexing a large project locally and share an index between
+        developers in your team by running clangd index server.
+      url: /guides/remote-index
+    - title: System headers
+      description: >
+        Details about how system header detection in clangd works and how to fix
+        issues with missing system headers.
+      url: /guides/system-headers
+    - title: 'Managing #includes'
+      description: >
+        Identify and #include the headers you actually use, and understand how
+        clangd decides which headers are used.
+      url: /guides/include-cleaner
+- title: FAQ
+  url: /faq
+  icon: '❓'
+- separator
+- title: Design
+  url: /design/
+  icon: '✨'
+  children:
+    - title: Code walkthrough
+      url: /design/code
+    - title: Compile commands
+      url: /design/compile-commands
+    - title: Threads & requests
+      url: /design/threads
+    - title: The clangd index
+      url: /design/indexing
+    - title: Remote index
+      url: /design/remote-index
+    - title: Include Cleaner
+      url: /design/include-cleaner
+- title: Protocol extensions
+  url: /extensions
+  icon: '⊕'
+- separator
+- title: Browse code
+  url: https://github.com/llvm/llvm-project/tree/main/clang-tools-extra/clangd
+  icon: '📄'
+- title: Bug tracker
+  url: https://github.com/clangd/clangd/issues
+  icon: '🐞'
+- title: Forum
+  url: https://github.com/clangd/clangd/discussions
+  icon: '💡'
+- title: Chat (#clangd)
+  url: https://discord.gg/xS7Z362
+  icon: '💬'
